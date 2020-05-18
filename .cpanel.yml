@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/gogo1zzr/public_html/shopping-cart/
+    - export DEPLOYPATH=/home/gogo1zzr/public_html/
     - /bin/cp -R dist/index.html $DEPLOYPATH
     - /bin/cp -R dist/static $DEPLOYPATH
